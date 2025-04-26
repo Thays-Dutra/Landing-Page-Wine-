@@ -1,0 +1,134 @@
+:root {
+  --color-primary-1: #FFFFFF;
+  --color-primary-2: #c2d4a0;
+  --color-primary-3: #D9A5A5;
+  --color-primary-4: #E8D5B7;
+
+  --color-primary-5: #000000;
+  --color-primary-6: #1C1C1C;
+  --color-primary-7: #57440B;
+  --color-primary-8: #571a23;
+}
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+
+
+.titulo {
+  margin-top: -20px;
+  font-weight: bold;
+  font-size: 32px;
+  color: var(--color-primary-6);
+  text-align: center;
+}
+
+.vinho-1, .vinho-2, .vinho-3, .vinho-4 {
+  max-width: 240px;
+  margin: 0 auto;
+}
+
+.vinho-4 {
+  margin-top: 10px;
+}
+
+.preço-1, .preço-2, .preço-3, .preço-4 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  color: var(--color-primary-5);
+}
+
+.preço-1 { 
+  margin-top: 8px;
+}
+
+.preço-3 { 
+  margin-top: -13px; 
+}
+
+.preço-4 { 
+  margin-top: 18px; 
+}
+
+
+.descricao-section {
+  background-color: var(--color-primary-2)
+}
+
+.descricao-texto {
+  font-size: 35px;
+  color: var(--color-primary-7);
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.imagem {
+  max-width: 100%;
+  margin: 20px auto 0;
+  display: block;
+}
+
+
+.depoimentos-section {
+  background-color: var(--color-primary-3);
+  padding: 0 5%;
+}
+
+.depoimento {
+  font-size: 32px;
+  color: var(--color-primary-6);
+  text-align: center;
+}
+
+.depoimento-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+
+.selecao-btn {
+  background-color: var(--color-primary-8);
+  color: var(--color-primary-1);
+  font-size: 1rem;
+  padding: 1rem 3rem;
+  border-radius: 50px;
+  box-shadow: 2px 2px 5px rgba(63, 54, 62, 0.979);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.selecao-btn:hover {
+  background-color: var(--color-primary-4);
+}
+
+.avaliar-btn {
+  background-color: var(--color-primary-5);
+  color: var(--color-primary-1);
+  padding: 0.5rem 1.5rem;
+  border-radius: 50px;
+  box-shadow: 2px 2px 5px rgba(63, 54, 62, 0.979);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.avaliar-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
+
+.footer-section {
+  background-color: var(--color-primary-4)
+}
